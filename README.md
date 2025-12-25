@@ -28,10 +28,10 @@ pip install -r requirements.txt
 
 ```bash
 #for dir descavry
-python3 fuzzer.py -m dir -u http://example.com -w wordlist.txt
+python3 fast-fuzzer.py -m dir -u http://example.com -w wordlist.txt
 
 #for subdomin descavry
-python3 fuzzer.py -m domin -u http://example.com -w wordlist.txt
+python3 fast-fuzzer.py -m domin -u http://example.com -w wordlist.txt
 
 #for timeout (defolt is 5)
 -t 10
