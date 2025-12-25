@@ -27,7 +27,21 @@ pip install -r requirements.txt
 يمكنك تشغيل الأداة مباشرة باستخدام بايثون:
 
 ```bash
-python3 fuzzer.py -u http://example.com -w wordlist.txt
+#for dir descavry
+python3 fuzzer.py -m dir -u http://example.com -w wordlist.txt
+
+#for subdomin descavry
+python3 fuzzer.py -m domin -u http://example.com -w wordlist.txt
+
+#for timeout (defolt is 5)
+-t 10
+
+# for threads (defolt is 50)
+-T 30
+
+#for extunions
+-x .php .html .txt 
+
 ```
 
 ---

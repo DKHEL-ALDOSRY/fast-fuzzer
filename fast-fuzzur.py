@@ -47,7 +47,7 @@ total_words = 0
 def print_banner():
     banner = f"""
     {Fore.MAGENTA}=======================================
-    {Fore.CYAN}        FUZZER - BY @DKHEL_  <=== INSTA
+    {Fore.CYAN}      FAST-FUZZER - BY DKHEL-ALDOSRY
     {Fore.MAGENTA}=======================================
     {Fore.YELLOW} Target:  {TARGET}
     {Fore.YELLOW} threds:  {THREDS}
